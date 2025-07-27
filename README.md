@@ -62,7 +62,9 @@ El diseño se realizó en **SolidWorks** y **Fusion 360**, y las piezas fueron f
 - 6 entradas analógicas  
 - Interfaz UART  
 - Alimentación por USB o fuente externa  
-- Programación en C/C++ vía Arduino IDE  
+- Programación en C/C++ vía Arduino IDE
+
+  > <img width="538" height="412" alt="image" src="https://github.com/user-attachments/assets/d15aafc2-9c1b-4c3f-b1b9-c8d6d588124c" />
 
 #### NEMA 17
 
@@ -73,8 +75,9 @@ El diseño se realizó en **SolidWorks** y **Fusion 360**, y las piezas fueron f
 - Diámetro del eje: 5 mm  
 - Dimensiones: 42 x 42 mm  
 
-> 📸 *(Aquí podés insertar una imagen del motor y la placa Arduino, ejemplo:)*  
-> `![Arduino y NEMA 17](images/nema_arduino.jpg)`
+><img width="421" height="446" alt="image" src="https://github.com/user-attachments/assets/0c15347d-ac1b-4021-b10d-c8f253d17e96" />
+
+
 
 #### A4988
 
@@ -82,24 +85,33 @@ El diseño se realizó en **SolidWorks** y **Fusion 360**, y las piezas fueron f
 - Microstepping: 1, 1/2, 1/4, 1/8, 1/16  
 - Control con pines STEP y DIR  
 - Ajuste de corriente con potenciómetro  
-- Protección térmica y sobrecorriente  
+- Protección térmica y sobrecorriente
+  
+><img width="310" height="356" alt="image" src="https://github.com/user-attachments/assets/0273c185-c98b-486b-88c9-1ee0d3378b1b" />
 
 ---
 
 ### 4.3 Partes Mecánicas
 
-- **Base:** Impresa en 3D, con alojamiento para NEMA 17 y espacio para cables  
+- **Base:** Impresa en 3D, con alojamiento para NEMA 17 y espacio para cables
+
+><img width="735" height="361" alt="image" src="https://github.com/user-attachments/assets/a85e9ebe-5ccf-41a5-82af-8eda1ab6d39f" />
+  
 - **Base giratoria intermedia:**  
   - Encastre superior para segundo motor  
   - Rodamiento tipo pista con bolillas  
-  - Fijación central para eje del motor  
+  - Fijación central para eje del motor
+
+    <img width="746" height="319" alt="image" src="https://github.com/user-attachments/assets/80b83155-5a74-4ce6-b998-9ef2e4effc6a" />
+
+
 
 - **Efector final:**  
   - Acople directo al eje del segundo motor  
   - Encaje sin tornillos
 
-> 📸 *(Ejemplo:)*  
-> `![Partes mecánicas](images/brazo_ensamble.png)`
+> <img width="168" height="370" alt="image" src="https://github.com/user-attachments/assets/cbb39572-d230-463b-b3da-779ce2e6a28b" />
+
 
 ---
 
@@ -115,8 +127,8 @@ El diseño se realizó en **SolidWorks** y **Fusion 360**, y las piezas fueron f
   - Pines 1A, 1B, 2A, 2B del A4988  
 - **Masa común:** debe unificar Arduino, drivers y fuente  
 
-> 📸 *(Podés incluir el esquema eléctrico aquí:)*  
-> `![Esquema eléctrico](images/esquema_electrico.png)`
+> <img width="768" height="248" alt="image" src="https://github.com/user-attachments/assets/7c7cc9d7-1e06-452c-a7cc-f0b99e433be4" />
+
 
 ---
 
